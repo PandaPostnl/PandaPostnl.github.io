@@ -1,0 +1,128 @@
+
+
+ 
+ 
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     list-style: none;
+     text-decoration: none;
+  }
+  header{
+     position: fixed;
+     right: 0;
+     z-index: 1000;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     border: 3px solid black;
+     padding: 3px;
+     padding-left: 9%;
+     padding-right: 9%;
+     background-color: black;
+     opacity: 75%;
+ 
+  
+  }
+  .logo{
+     font-size: 30px;
+     font-weight: 700;
+     color: white;
+  }
+  .navlist{
+     display: flex;
+  }
+  .navlist a{
+     color: white;
+     margin-left: 60px;
+     font-size: 15px;
+     font-weight: 600;
+     border-bottom: 2px solid transparent;
+     transition: all .55s ease;
+  }
+  .navlist a:hover{
+     border-bottom: 2px solid white;
+  }
+  #menu-icon{
+     color: white;
+     font-size: 35px;
+     z-index: 10001;
+     cursor: pointer;
+     display: none;
+  }
+  .hero{ 
+     height: 100%;
+     width: 100%;
+     height: ;
+     min-height: 100vh;
+     background-color:#a9babc;   
+     background-image: url("./images/background.jpg"); 
+     background-repeat: no-repeat;  
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: center;
+     background-blend-mode: multiply;
+     position: relative;
+     display: grid;
+     grid-template-columns:  ; 
+     align-items: center;
+     gap: ;
+     color: white; 
+     
+  }
+  .hero-text{
+    border: 3px solid black;
+    border-color: black;
+    padding: 20px;
+    font-size: 18px;
+    margin-left: 260px;
+    margin-right: 260px;
+    background-color: rgb(1, 1, 43)  ;
+
+    
+     
+  
+  }
+  .hero-img{
+    padding: 0 26%;
+    padding-top: 4%;
+    
+  }
+ 
+  .hero-text img{
+ object-fit: cover;
+ width: 330px;
+ height: 440px;
+ border: 5px solid #EAECEC;
+ float: right;
+ margin-right: 60px;
+ margin-left: 20px;
+ 
+ 
+  }
+
+  .hero-text p{
+    margin-bottom: 1.5em;
+  }
+
+  .hero-text h1{
+    margin-bottom: 1em;
+  }
+
+  .footer {
+    padding: 15px;
+    position: absolute;
+    border: 3px solid black;
+    background: black;
+    margin-top: 10px;
+clear: both;
+  }
+  
+  p a:first-child{
+    color: yellow;
+  }
+
+  
